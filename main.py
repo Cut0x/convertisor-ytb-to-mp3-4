@@ -6,7 +6,7 @@ yt = YouTube(str(input("Entez l'URL de la vidéo : ")));
 
 video = yt.streams.filter(only_audio=True).first();
 
-destination = str("C:\\Users\\Loïc\\Music\\Musique Download");
+destination = str("C:\\Users\\Name\\Music"); # Modifiez "Name" par votre nom d'utilisateur de votre PC
 
 out_file = video.download(output_path=destination);
 base, ext = os.path.splitext(out_file);
