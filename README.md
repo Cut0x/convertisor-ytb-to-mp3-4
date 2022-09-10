@@ -1,2 +1,7 @@
-# convertisor-ytb-to-mp3-4
+# Convertisor YouTube to mp3 and mp4
 an easy-to-use converter made in python with pytube !
+
+# Required module
+```pip
+python -m pip install pytube
+```
